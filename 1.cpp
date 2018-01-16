@@ -20,4 +20,17 @@ using namespace std;
 	drkevin.ukuran = "Ukuran 40  - 42 ";
 	vanz.ukuran = "Ukuran 40  - 41  ";
 	eagle.ukuran = "Ukuran 38 - 40 ";
-};
+	
+	cout<<"sepatu drkevin "<< (drkevin.kualitas) << (drkevin.bahan) << (drkevin.ukuran);
+	drkevin.fantopel("Sepatu yang lumayan bagus ");
+	cout<<"sepatu vanz "<< (vanz.kualitas) << (vanz.bahan) << (vanz.ukuran);
+	vanz.fantopel("Sepatu kualitas standar ");
+	cout<<"sepatu eagle "<< (drkevin.kualitas) << (vanz.bahan) << (eagle.ukuran);
+	eagle.fantopel("Sepatu yang sangat-sangat bagus "); 
+}
+	
+	
+void sepatu::fantopel(string fantopel){
+	cout<<"Sepatu khusus fantopel "<<fantopel<<"\n";
+}
+
