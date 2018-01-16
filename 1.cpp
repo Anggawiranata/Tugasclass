@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main {
+	class sepatu{
+	};
+int main{
 };
